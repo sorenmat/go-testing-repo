@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: theawesomegoapp
+  description: yes
+  annotations: 
+    github.com/project-slug: sorenmat/go-testing-repo
+    backstage.io/github-actions-id: sorenmat/go-testing-repo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sorenmat
